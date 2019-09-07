@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Conexion con Base de Datos</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">  
+    <link rel="stylesheet" href="susy-master/docs/assets/webpack/app_styles.min.css">
+  
+  <script src="susy-master/docs/assets/webpack/app.min.js"></script>
+  <script src="susy-master/docs/assets/webpack/common.min.js"></script>
+  <script src="susy-master/docs/assets/webpack/runtime.min.js"></script>
+  <script src="susy-master/docs/assets/webpack/search.min.js"></script>
+</head>
+ 
+<body class="cuerpo" style="background-color: ">
+    <section align="right">
+          <h1>DIRECCION ZONAL</h1>
+           <select class="opciones" name="ing[]">
+					<option>Escoja su sede</option>
+					<option value="lIMA-CALLAO">Admnistrador</option>
+					<option value="CHIMBOTE-UNIVERSITARIA">Contabilidad</option>
+					<option value="HUARAZ-LOS GIRASOLES">Diseño</option>
+					<option value="TUMBES">Admnistrador</option>
+					<option value="CAÑETE">Contabilidad</option>
+					<option value="SAN JUAN DE LURIGANCHO">Diseño</option>
+		   </select><br> <br>
+    </section>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+	<section align="center">
+		<h1 class="blanco" style="font-size: 40px;">FORMACION PROFESIONAL DUAL</h1><br><br>
+			<div >				
+				<label>CFP/UCP/ESCUELAS</label><br>
+						<select class="opciones" name="ing[]">
+							<option>Escoja su escuela</option>
+							<option value="ETI">Admnistrador</option>
+							<option value="METAL MECANICA">Contabilidad</option>
+							<label>Otros..</label><br>
+				        <input type="text" name="Nombre" class="campos" required placeholder="Escriba su escuela"><br> <br>
+				        </select><br>
+				       
+				<label>ESTUDIANTE</label><br>
+				<input type="text" name="Nombre" class="campos" required placeholder="Escriba aqui su Nombre"><br> <br>
+				
+				<label>ID</label><br>
+				<input type="number" name="id" class="campos" required placeholder="Escriba su id"><br> <br>
+				<label>BLOQUE</label><br>
+				<input type="text" name="bloque" class="campos" required placeholder="Escriba su bloque"><br> <br>
+                <label>CARRERA</label><br>
+                <select class="opciones" name="ing[]">
+					<option>Escoja su carrera</option>
+					<option value="Diseño y desarrollo web">Admnistrador</option>
+					<option value="Diseño">Contabilidad</option>
+					<option value="Administracion">Diseño</option>
+					<option value="Diseño y desarrollo de software">Admnistrador</option>
+					<option value="Mecanica">Contabilidad</option>
+					<option value="Industria alimentaria">Diseño</option>
+			    </select><br> <br>
+			    <label>INSTRUCTOR</label><br>
+			    <select class="opciones" name="ing[]">
+					<option>Escoja su instructor</option>
+					<option value="Herbert E.">Herbert E.</option>
+					<option value="Jorge T.">Jorge T.</option>
+					<option value="Pedro H.">Pedro H.</option>
+					<option value="Diego G.">Diego G.</option>
+					<option value="Gabriel .L">Gabriel .L</option>
+					<option value="Juan .G">Juan .G</option>
+			    </select><br> <br>
+			    
+			    <label>SEMESTRE</label><br>
+			    <select class="opciones" name="ing[]">
+			      
+					<option>Escoja su semestre</option>
+					<option value="Herbert E.">1</option>
+					<option value="Jorge T.">2</option>
+					<option value="Pedro H.">3</option>
+					<option value="Diego G.">4</option>
+					<option value="Gabriel .L">5</option>
+					<option value="Juan .G">6</option>
+			    </select><br> <br>
+			    <label>FECHA</label><br>
+				<input type="date" name="Nombre" class="campos"><br> <br>
+				<input type="submit" name="envia" value="Enviar" class="campos" style="background-color:#06F">
+				<input type="reset" name="restaura" value="Limpiar" class="campos" style="background-color:#390"><br>
+			</div>	
+            
+		
+	</section>
+</body>
+
+</html>
